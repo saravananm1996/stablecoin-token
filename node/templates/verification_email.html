@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Email Verification</title>
+</head>
+
+<body style="margin:0; padding:0; background-color:#f5f6fa;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td align="center">
+
+        <table width="600" cellpadding="0" cellspacing="0" border="0" 
+               style="background:#ffffff; margin-top:30px; border-radius:8px; overflow:hidden;">
+          
+          <tr>
+            <td align="center" bgcolor="#1a1a1a" style="padding:25px 0;">
+              <img src="https://vanavilinfotech.com/token/assets/images/finxcore-logo.png" width="150">
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 30px 40px; font-size:15px; color:#333;">
+              <h2 style="margin-top:0;">Verify Your Email</h2>
+
+              <p>Hello <strong>{{FULLNAME}}</strong>,</p>
+
+              <p>Please verify your email address by clicking the button below:</p>
+
+              <p style="text-align:center; margin:30px 0;">
+                <a href="{{VERIFY_URL}}" 
+                   style="background:#007bff; color:#fff; padding:14px 28px; 
+                          border-radius:6px; font-size:16px;">
+                  Verify Email
+                </a><br/>
+               
+              </p>
+              <p> if not working copy paste bellow url into the browser</p>
+              <p>{{VERIFY_URL}}</p>
+
+              <p>If you did not request this, ignore this email.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td bgcolor="#f1f1f1" style="padding:20px; text-align:center; color:#777; font-size:13px;">
+              © {{YEAR}} FinXCore. All rights reserved.
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
